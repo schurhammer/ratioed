@@ -44,6 +44,11 @@ pub fn to_f(ratio: Ratio) -> Float {
   int.to_float(ratio.n) /. int.to_float(ratio.d)
 }
 
+// Convert a rational to string
+pub fn to_string(ratio: Ratio) -> String {
+  int.to_string(ratio.n) <> "/" <> int.to_string(ratio.d)
+}
+
 /// Compare two rationals
 pub fn compare(a: Ratio, b: Ratio) -> Order {
   int.compare(a.n * b.d, a.d * b.n)
