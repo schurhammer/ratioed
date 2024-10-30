@@ -1,5 +1,5 @@
-import gleam/int
 import gleam/float
+import gleam/int
 import gleam/order.{type Order}
 
 /// Default epsilon for converting floating point numbers

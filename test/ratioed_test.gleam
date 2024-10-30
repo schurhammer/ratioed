@@ -1,10 +1,10 @@
+import gleam/order.{Eq, Gt, Lt}
 import gleeunit
 import gleeunit/should
 import ratioed.{
   add, compare, div, from_f, from_f_epsilon, from_i, from_i2, mul, sub, to_f,
   to_i,
 }
-import gleam/order.{Eq, Gt, Lt}
 
 const pi = 3.14159265358979323846
 
